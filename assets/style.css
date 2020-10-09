@@ -1,0 +1,57 @@
+/* Global */
+.navbar{
+    border-bottom: 5px solid teal; 
+}
+
+.navbar-brand{
+    background-color: teal; 
+    font-weight: bold; 
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar-brand p{
+    color: white; 
+    margin: 0; 
+}
+
+
+.jumbotron{
+    background-image: url("./images/background_all.jpg"); 
+    height: 100vh;
+}
+
+.container-background{
+    border: 5px solid teal; 
+    background-color: white; 
+}
+
+.title-font{
+    color:teal; 
+    font-weight:bold; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sticky-footer{
+    background-color: white;
+    border-top: 5px solid teal; 
+}
+
+.footer-icon{
+    width: 50px; 
+    height: 50px;
+}
+/* Index-specific */
+
+.head-shot{
+    max-width: 30%; 
+    height: auto;
+}
+
+/* Contact-specific */
+
+.btn-format{
+    background-color: teal; 
+    border: none;
+}
+
+/* Portfolio-specific */
+

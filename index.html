@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>My Website</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Albert Cheng Website</title>
 </head>
 
 <body>
@@ -14,9 +15,8 @@
     <header>
         <!-- Beginning of navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand p-2" href="#"
-                style="background-color: teal; color: white; font-weight: bold; font-family:'Times New Roman', Times, serif;">
-                Albert Cheng
+            <a class="navbar-brand p-2" href="#">
+                <p>Albert Cheng</p>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,14 +34,12 @@
     </header>
 
 
-    <main class="jumbotron"
-        style="height:100vh; background-image: url(./assets/images/about_me_background.jpeg); background-size: 100%;">
+    <main class="jumbotron">
         <article class="container">
             <article class="row">
-                <article class="col-md-8" style="border: 5px solid teal; background-color: white;">
+                <article class="col-md-8 container-background">
                     <section class="row">
-                        <section class="col-md-12"
-                            style="color:teal; font-weight:bold; font-family:'Times New Roman', Times, serif;">
+                        <section class="col-md-12 title-font">
                             <h1>About Me</h1>
                         </section>
                     </section>
@@ -50,26 +48,25 @@
 
                         <section class="col-md-12">
                             <img src="./assets/images/head_shot.jpeg" alt="Head Shot Image"
-                                style="max-width: 50%; height: auto;" class="img-responsive float-left mr-3" />
+                                class="head-shot img-fluid float-left mr-3" />
 
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia officia, culpa quas fuga
-                                veniam ducimus sunt quam accusamus quaerat rem veritatis quis, asperiores adipisci
-                                voluptas? Dolores ratione quidem obcaecati sequi. Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Molestiae quae rerum animi quos nobis. Quisquam hic, voluptas labore,
-                                in aliquid eum impedit, optio dignissimos id tempore sequi necessitatibus cum nam? Lorem
-                                ipsum dolor, sit amet consectetur adipisicing elit. Esse harum amet maxime voluptas
-                                neque similique provident quia laborum, molestias earum, perspiciatis modi temporibus
-                                dolorum commodi fugit saepe, placeat nam ad!
+                            <p> I want to make as much of a positive impact in the world as possible with enthusiasm,
+                                humor, empathy, and innovation.
+                                This is my personal mission statement that guided me from my career with Siemens that
+                                took me through 5 different technical and business roles in 4 cities and 2 countries in
+                                6 years to my volunteering experiences with non-profits and startup efforts.
                             </p>
                         </section>
                     </section>
 
                     <section class="row">
                         <section class="col-md-12">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum facere beatae,
-                                exercitationem
-                                autem ipsa doloribus eligendi omnis in earum architecto qui illum blanditiis quos natus,
-                                nesciunt nemo sapiente obcaecati rem.</p>
+                            <p>Through these experiences, I’ve wore many hats such as process and product engineer,
+                                product and project manager, serviceability manager, business analyst, non-profit
+                                organization chapter president, consultant, and board member. As a result, I have a
+                                unique ability to move between seeing the big, strategic picture and at the same time
+                                understanding how to execute the implementation of an idea from inception to reality.
+                            </p>
                         </section>
                     </section>
                 </article>
@@ -79,20 +76,20 @@
 
     <!-- Beginning of sticky footer -->
     <footer class="footer">
-        <div class="navbar fixed-bottom" style="background-color: white; border-top: 5px solid teal;">
+        <div class="navbar fixed-bottom py-0 sticky-footer">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mt-auto mb-auto">
                     <h5>
                         Click to reach out to me on social media:
                     </h5>
                 </div>
                 <div class="col-md-2">
                     <a href="https://www.linkedin.com/in/albertzcheng/"><img src="./assets/images/linkedin_icon.png"
-                            alt="LinkedIn Icon" class="img-responsive m-3" style="width: 50px; height: 50px;"></a>
+                            alt="LinkedIn Icon" class="img-fluid m-3 footer-icon"></a>
                 </div>
                 <div class="col-md-2">
                     <a href="https://www.facebook.com/albert.z.cheng"><img src="./assets/images/facebook_icon.png"
-                            alt="Facebook Icon" class="img-responsive m-3" style="width: 50px; height: 50px"></a>
+                            alt="Facebook Icon" class="img-fluid m-3 footer-icon"></a>
                 </div>
             </div>
         </div>

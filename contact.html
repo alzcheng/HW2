@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>My Website</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Albert Cheng Website</title>
 </head>
 
 <body>
     <header>
         <!-- Beginning of navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand p-2" href="#"
-                style="background-color: teal; color: white; font-weight: bold; font-family:'Times New Roman', Times, serif;">
-                Albert Cheng
+            <a class="navbar-brand p-2" href="#">
+                <p>Albert Cheng</p>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,15 +32,12 @@
         <!-- End of navbar -->
     </header>
 
-    <main class="jumbotron"
-        style="height:100vh;background-image: url(./assets/images/portfolio_background.jpg); background-size: 100%;">
+    <main class="jumbotron">
         <article class="container">
             <article class="row">
-                <article class="col-md-8" style="border: 5px solid teal; background-color: white;">
-
+                <article class="col-md-8 container-background">
                     <section class="row">
-                        <section class="col-md-12"
-                            style="color:teal; font-weight:bold; font-family:'Times New Roman', Times, serif;">
+                        <section class="col-md-12 title-font">
                             <h1>Contact</h1>
                         </section>
                     </section>
@@ -65,8 +62,7 @@
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                                         placeholder="Message"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary px-4 py-3 mb-3"
-                                    style="background-color: teal; border: none;">Submit</button>
+                                <button type="submit" class="btn btn-primary px-4 py-3 mb-3 btn-format">Submit</button>
                             </form>
 
                         </section>
@@ -78,20 +74,20 @@
 
     <!-- Beginning of sticky footer -->
     <footer class="footer">
-        <div class="navbar fixed-bottom" style="background-color: white; border-top: 5px solid teal;">
+        <div class="navbar fixed-bottom py-0 sticky-footer">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mt-auto mb-auto">
                     <h5>
                         Click to reach out to me on social media:
                     </h5>
                 </div>
                 <div class="col-md-2">
                     <a href="https://www.linkedin.com/in/albertzcheng/"><img src="./assets/images/linkedin_icon.png"
-                            alt="LinkedIn Icon" class="img-responsive m-3" style="width: 50px; height: 50px;"></a>
+                            alt="LinkedIn Icon" class="img-fluid m-3 footer-icon"></a>
                 </div>
                 <div class="col-md-2">
                     <a href="https://www.facebook.com/albert.z.cheng"><img src="./assets/images/facebook_icon.png"
-                            alt="Facebook Icon" class="img-responsive m-3" style="width: 50px; height: 50px"></a>
+                            alt="Facebook Icon" class="img-fluid m-3 footer-icon"></a>
                 </div>
             </div>
         </div>
