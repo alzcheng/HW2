@@ -30,6 +30,10 @@
     font-family:'Times New Roman', Times, serif;
 }
 
+.title-font h1{
+    margin-top: 10px; 
+}
+
 .sticky-footer{
     background-color: white;
     border-top: 5px solid teal; 
