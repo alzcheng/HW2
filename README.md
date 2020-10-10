@@ -41,7 +41,7 @@ These webpages should all have the following features:
 
 * Responsive images
 
-* A fixed footer
+* A fixed footer with links to my social media page
 
 ## Learnings 
 
