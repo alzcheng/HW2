@@ -7,8 +7,29 @@ I created a static website with 3 pages, the Contact, the Portfolio, and the Abo
 ### Screenwidth: 400px
 References: 
 
-![Contact Page](/assets/images/readme_images/ref/400-contact.png) ![Index Page](/assets/images/readme_images/ref/400-index.png) ![Portfolio Page](/assets/images/readme_images/ref/400-portfolio.png)
+![400px references](/assets/images/readme_images/400-ref.png)
 
+Solution: 
+
+![400px solution](/assets/images/readme_images/400-solved.png)
+
+### Screenwidth: 768px
+References: 
+
+![768px references](/assets/images/readme_images/768-ref.png)
+
+Solution: 
+
+![768px solution](/assets/images/readme_images/768-solved.png)
+
+### Screenwidth: 992px
+References: 
+
+![992px references](/assets/images/readme_images/992-ref.png)
+
+Solution: 
+
+![992px solution](/assets/images/readme_images/992-solved.png)
 
 ## Features 
 
