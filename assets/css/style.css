@@ -3,6 +3,7 @@
 1.0  Global 
 2.0  index.html Specific
 3.0  contact.html Specific
+4.0  portfolio.html Specific
 /*
 
 /*** 1.0 Global ***/
@@ -23,7 +24,7 @@
 .jumbotron{
     background-image: url("../images/background_all.jpg"); 
     background-repeat: repeat;
-    height: 100vmax; 
+    height: 100%; 
 }
 
 .container-background{
@@ -57,9 +58,15 @@
     height: auto;
 }
 
-/*** 3.0 contact.html pecific */
+/*** 3.0 contact.html Specific */
 
 .btn-format{
     background-color: teal; 
     border: none;
+}
+
+/*** 4.0 portfolio.html Specific */
+
+.portfolio-margin{
+    margin-bottom: 200px; 
 }
