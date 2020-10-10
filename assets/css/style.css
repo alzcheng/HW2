@@ -1,4 +1,11 @@
-/* Global */
+/*** Table of Contens***/
+/*
+1.0  Global 
+2.0  index.html Specific
+3.0  contact.html Specific
+/*
+
+/*** 1.0 Global ***/
 .navbar{
     border-bottom: 5px solid teal; 
 }
@@ -13,10 +20,10 @@
     margin: 0; 
 }
 
-
 .jumbotron{
-    background-image: url("./images/background_all.jpg"); 
-    height: 100vh;
+    background-image: url("../images/background_all.jpg"); 
+    background-repeat: repeat;
+    height: 100vmax; 
 }
 
 .container-background{
@@ -43,19 +50,16 @@
     width: 50px; 
     height: 50px;
 }
-/* Index-specific */
+/*** 2.0 indext.html Specific */
 
 .head-shot{
     max-width: 30%; 
     height: auto;
 }
 
-/* Contact-specific */
+/*** 3.0 contact.html pecific */
 
 .btn-format{
     background-color: teal; 
     border: none;
 }
-
-/* Portfolio-specific */
-
