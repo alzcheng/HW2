@@ -50,4 +50,4 @@ These webpages should all have the following features:
 3. Resizing background images 
 
 ## Link to finished product website
-[Link to finished product](https://alzcheng.github.io/HW2/)
+[Link to finished product](https://alzcheng.github.io/myPortfolio/)
