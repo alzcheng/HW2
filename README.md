@@ -1,4 +1,4 @@
-# HW2 - About Me
+# About Me Website
 
 ## Description
 
